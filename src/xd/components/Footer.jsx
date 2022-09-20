@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../img/FoodYummy.png";
+// import logo from "../img/FoodYummy.png";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
@@ -10,7 +10,7 @@ export default function Footer() {
     <div className="footer">
       <Section>
         <div className="brand container">
-          <img src={logo} alt="" />
+          {/* <img src={logo} alt="" /> */}
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
             repudiandae.
@@ -61,7 +61,7 @@ export default function Footer() {
 
 const Section = styled.footer`
   margin: 0;
-  background: linear-gradient(to right, #fc4958, #e85d04);
+  background: linear-gradient(to right, #50575e, #a7aaad);
   color: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);

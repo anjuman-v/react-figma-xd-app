@@ -102,8 +102,10 @@ const Nav = styled.nav`
   padding: 0 4vw;
   .brand {
     img {
-      margin-top: 1rem;
+      margin-top: 0.9rem;
       cursor: pointer;
+      width: 8rem;
+      margin-bottom : 0.6rem
     }
     .toggle {
       display: none;
@@ -115,18 +117,18 @@ const Nav = styled.nav`
     gap: 2rem;
     li {
       a {
-        color: #fc4958;
+        color: #101517;
         font-weight: 600;
         text-decoration: none;
         text-transform: uppercase;
         letter-spacing: 0.2rem;
         transition: 0.3s ease-in-out;
         &:hover {
-          color: #f9c74f;
+          color: #50575e;
         }
       }
       .active {
-        color: #f9c74f;
+        color: #50575e;
       }
     }
   }
@@ -168,7 +170,7 @@ const ResponsiveNav = styled.div`
       margin-left: 2rem;
       a {
         text-decoration: none;
-        color: #f9c74f;
+        color: #50575e;
         font-size: 1.2rem;
         transition: 0.1s ease-in-out;
         &:hover {

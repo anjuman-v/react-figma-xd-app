@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { TitleStyles } from "./ReusableStyles";
-// import background from '../img/HeroDesign.png'
+import background from '../img/hero2.jpg'
 
-const background = "https://thumbs.dreamstime.com/b/organic-vegetables-fruits-fresh-variety-isolated-white-background-88383730.jpg"
+// const background = "https://thumbs.dreamstime.com/b/organic-vegetables-fruits-fresh-variety-isolated-white-background-88383730.jpg"
 export default function Services() {
   return (
     <Section id="services">

@@ -10,20 +10,24 @@ export default function Hero() {
       </div>
       <div className="content">
         <div className="sale">
-          <img src={heroDesign} alt="" />
-          <h1>
+          {/* <img src={heroDesign} alt="" /> */}
+          {/* <h1>
             BIG SALE
             <span>50% OFF</span>
-          </h1>
+          </h1> */}
+
+
         </div>
-        <div className="info">
+        {/* <div className="info">
           <h2>RETAILER</h2>
           <em>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
             aspernatur itaque, eius quia voluptas numquam!
           </em>
           <button>ORDER NOW</button>
-        </div>
+        </div> */}
+
+        
       </div>
     </Section>
   );

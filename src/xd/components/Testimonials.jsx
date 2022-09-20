@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import avatar1 from "../img/avatar.webp";
-import avatar2 from "../img/avatar2.jpg"
+import avatar from "../img/avatar.jpg"
 import { imageZoomEffect, TitleStyles } from "./ReusableStyles";
 export default function Testimonials() {
   return (
@@ -15,7 +14,7 @@ export default function Testimonials() {
         <div className="testimonials">
           <div className="testimonial">
             <div className="image">
-              <img src={avatar1} alt="" />
+              <img src={avatar} alt="" />
             </div>
             <p>
               He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
@@ -24,7 +23,7 @@ export default function Testimonials() {
           </div>
           <div className="testimonial">
             <div className="image">
-              <img src={avatar2} alt="" />
+              <img src={avatar} alt="" />
             </div>
             <p>
               He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
@@ -33,7 +32,7 @@ export default function Testimonials() {
           </div>
           <div className="testimonial">
             <div className="image">
-              <img src={avatar1} alt="" />
+              <img src={avatar} alt="" />
             </div>
             <p>
               He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
